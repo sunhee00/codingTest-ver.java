@@ -1,0 +1,26 @@
+package javaTest;
+
+import java.util.Scanner;
+
+public class q001 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int number = sc.nextInt();
+		int pNum;
+		int result = 0;
+		
+		int A[] = new int[number];
+		
+		System.out.println();
+		
+		for(int i=0; i<number; i++) {
+			A[number] = sc.nextInt();
+		}
+		
+		System.out.println(result);
+
+	}
+
+}
