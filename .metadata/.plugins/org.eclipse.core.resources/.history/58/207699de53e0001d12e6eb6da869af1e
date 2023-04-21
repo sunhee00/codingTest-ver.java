@@ -1,0 +1,43 @@
+package DoitAlgorithm_java;
+
+import java.util.Scanner;
+
+public class p_1C_1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("세 정수의 중앙값을 구합니다.");
+		
+		System.out.print("a의 값: ");
+		int a = sc.nextInt();
+		System.out.print("b의 값: ");
+		int b = sc.nextInt();
+		System.out.print("c의 값: ");
+		int c = sc.nextInt();
+		
+		
+
+	}
+	
+	static int med(int a, int b, int c) {
+		int max = a;
+		int mid;
+		
+		if(max > b) { 
+			mid = b;
+		}else {
+			mid = max;
+			max = b;
+		}
+		if(max > c) { 
+			mid = c;
+		}else {
+			mid = max;
+			max = c;
+		}
+		
+		
+	}
+
+}
